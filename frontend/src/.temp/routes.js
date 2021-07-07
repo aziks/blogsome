@@ -1,7 +1,7 @@
-const c1 = () => import(/* webpackChunkName: "page--src--templates--article-vue" */ "/Users/markkaylor/2021/starters/strapi-starter-gridsome-blog/starter/src/templates/Article.vue")
-const c2 = () => import(/* webpackChunkName: "page--src--templates--category-vue" */ "/Users/markkaylor/2021/starters/strapi-starter-gridsome-blog/starter/src/templates/Category.vue")
-const c3 = () => import(/* webpackChunkName: "page--node-modules--gridsome--app--pages--404-vue" */ "/Users/markkaylor/2021/starters/strapi-starter-gridsome-blog/starter/node_modules/gridsome/app/pages/404.vue")
-const c4 = () => import(/* webpackChunkName: "page--src--pages--index-vue" */ "/Users/markkaylor/2021/starters/strapi-starter-gridsome-blog/starter/src/pages/Index.vue")
+const c1 = () => import(/* webpackChunkName: "page--src-templates-article-vue" */ "C:\\Users\\azido\\Documents\\CODE\\blogsome\\frontend\\src\\templates\\Article.vue")
+const c2 = () => import(/* webpackChunkName: "page--src-templates-category-vue" */ "C:\\Users\\azido\\Documents\\CODE\\blogsome\\frontend\\src\\templates\\Category.vue")
+const c3 = () => import(/* webpackChunkName: "page--node-modules-gridsome-app-pages-404-vue" */ "C:\\Users\\azido\\Documents\\CODE\\blogsome\\frontend\\node_modules\\gridsome\\app\\pages\\404.vue")
+const c4 = () => import(/* webpackChunkName: "page--src-pages-index-vue" */ "C:\\Users\\azido\\Documents\\CODE\\blogsome\\frontend\\src\\pages\\Index.vue")
 
 export default [
   {
@@ -46,6 +46,10 @@ export default [
   },
   {
     path: "/article/beautiful-picture/",
+    component: c1
+  },
+  {
+    path: "/article/aaaaaaaaaaaaaaaaaaaaaaaaaaaaa/",
     component: c1
   },
   {
